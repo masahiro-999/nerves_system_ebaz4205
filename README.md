@@ -34,11 +34,11 @@ This project is still a work in progress, and any issues will be tracked and res
 
 create a project with `mix nerves.new`
 
-add `{:nerves_system_m5stack_core_mp135, "~> 0.0.7", runtime: false, targets: :m5stack_core_mp135}` in deps in mix.exs
+add `{:nerves_system_ebaz4205, "~> 0.0.1", runtime: false, targets: :ebaz4205}` in deps in mix.exs
 
-add `:m5stack_core_mp135` in the `@all_targets` in mix.exs
+add `:ebaz4205` in the `@all_targets` in mix.exs
 
-export `MIX_TARGET=m5stack_core_mp135`.
+export `MIX_TARGET=ebaz4205`.
 
 run `mix deps.get`
 

@@ -2,7 +2,7 @@ defmodule NervesSystemM5stackCoreMp135.MixProject do
   use Mix.Project
 
   @github_organization "masahiro-999"
-  @app :nerves_system_m5stack_core_mp135
+  @app :nerves_system_ebaz4205
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
@@ -136,7 +136,7 @@ defmodule NervesSystemM5stackCoreMp135.MixProject do
     if function_exported?(Mix, :target, 1) do
       apply(Mix, :target, [:target])
     else
-      System.put_env("MIX_TARGET", "m5stack_core_mp135")
+      System.put_env("MIX_TARGET", "ebaz4205")
     end
   end
 end
